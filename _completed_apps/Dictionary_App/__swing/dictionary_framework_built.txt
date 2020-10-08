@@ -1,0 +1,70 @@
+from tkinter import * 
+import json
+from difflib import get_close_matches
+
+data = json.load(open('.\\_completed_apps\\Dictionary_App\\data.json'))  
+
+# Build the Framework, then start calling functions
+
+window = Tk()
+
+window.wm_title("Dictionary")
+
+# Entering a Word (Label)
+l1=Label(window,text="Enter a Word")
+l1.grid(row=0, column=0)
+
+# Entering a Word (Field)
+word_input = StringVar()
+e1=Entry(window, textvariable = word_input)
+e1.grid(row=0,column=1)
+
+# Adding the listbox (where we keep the stuff)
+list1 = Listbox(window, height = 6, width = 35)
+list1.grid(row=2, column=0,rowspan=6, columnspan=2)
+
+# Adding scroll bar
+sb1=Scrollbar(window)
+sb1.grid(row=2,column=2, rowspan=6)
+
+# Add the lookup button
+b1 = Button(window, text= "Search", width = 12, ) #command = view_command
+b1.grid(row=0, column=2)
+
+window.mainloop()
+
+
+
+# Write a function to look up/print definition 
+def lookup(word):
+    # ensuring lowercase
+    word = word.lower() 
+
+    if word in data:
+        return data[word]
+    elif len(get_close_matches(word, data.keys())) > 0:
+        yn = input("Did you mean %s instead? Enter Y if yes, or N if no: " % get_close_matches(word, data.keys())[0])
+        if (yn == "Y" or yn == 'y'):
+            return data[get_close_matches(word, data.keys())[0]]
+        elif (yn == "N" or yn == 'n'):
+            return "The word doesn't exist. Please double check it."
+        else:
+            return "We didn't understand your entry."
+    else:
+        return 'Word not found. Please try again.'
+
+# Getting user input
+running = True
+
+while running:
+    print("Hit 0 to quit")
+    user_input = input("Input a word to lookup:")
+    if user_input == '0':
+        running = False
+        print("Program Ending")
+        print('==============')
+    else:
+        a = lookup(user_input)
+        for x in range(len(a)): 
+            print(a[x])
+

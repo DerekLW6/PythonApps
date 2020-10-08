@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f3fff6f71b64464186e513963f48e2d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f3fff6f71b64464186e513963f48e2d9" ></div>
+        
+</body>
+<script>    
+    
+            var map_f3fff6f71b64464186e513963f48e2d9 = L.map(
+                "map_f3fff6f71b64464186e513963f48e2d9",
+                {
+                    center: [46.25, 4.75],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f44b7ab65c674b3f95642fdbc999d584 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f3fff6f71b64464186e513963f48e2d9);
+        
+    
+            var feature_group_6665da9a82ae4570a83c056a7be6f1bb = L.featureGroup(
+                {}
+            ).addTo(map_f3fff6f71b64464186e513963f48e2d9);
+        
+    
+            var marker_6a77eff0bf624e4bbe6cff6cc0f64486 = L.marker(
+                [1.42266, 124.80663],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_b5ad23f76a7d4ec6a1bb3986492cb306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb2176ab4e6245129f0b95e757f391eb = $(`<div id="html_cb2176ab4e6245129f0b95e757f391eb" style="width: 100.0%; height: 100.0%;">Battle of the Atlantic</div>`)[0];
+            popup_b5ad23f76a7d4ec6a1bb3986492cb306.setContent(html_cb2176ab4e6245129f0b95e757f391eb);
+        
+
+        marker_6a77eff0bf624e4bbe6cff6cc0f64486.bindPopup(popup_b5ad23f76a7d4ec6a1bb3986492cb306)
+        ;
+
+        
+    
+    
+            var marker_4ecd0d77844541229606eb088314699b = L.marker(
+                [28.14411377, 2.679965933],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_75fb96703b8a4cc6a306d27c7cc92321 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4724b911f1804101950ae6b09e58e3af = $(`<div id="html_4724b911f1804101950ae6b09e58e3af" style="width: 100.0%; height: 100.0%;">Operation Torch</div>`)[0];
+            popup_75fb96703b8a4cc6a306d27c7cc92321.setContent(html_4724b911f1804101950ae6b09e58e3af);
+        
+
+        marker_4ecd0d77844541229606eb088314699b.bindPopup(popup_75fb96703b8a4cc6a306d27c7cc92321)
+        ;
+
+        
+    
+    
+            var marker_960401e33ae343aaacfa6ceb3744c44e = L.marker(
+                [35.25, 8.75],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_a46052f4769c447b8bb9649a538b09d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88a0cb564d2d4bfea0932ffd0c4a6ddf = $(`<div id="html_88a0cb564d2d4bfea0932ffd0c4a6ddf" style="width: 100.0%; height: 100.0%;">Battle of the Kasserine Pass</div>`)[0];
+            popup_a46052f4769c447b8bb9649a538b09d5.setContent(html_88a0cb564d2d4bfea0932ffd0c4a6ddf);
+        
+
+        marker_960401e33ae343aaacfa6ceb3744c44e.bindPopup(popup_a46052f4769c447b8bb9649a538b09d5)
+        ;
+
+        
+    
+    
+            var marker_ded33bfd2ef947e7966a8a5888de84e1 = L.marker(
+                [36.7982055, 10.1821635],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_f53fd5e3a8914b50ab7d29221bd27aec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c08c2b99a34043ca9e112c993c25ea6a = $(`<div id="html_c08c2b99a34043ca9e112c993c25ea6a" style="width: 100.0%; height: 100.0%;">Battle of El Guettar</div>`)[0];
+            popup_f53fd5e3a8914b50ab7d29221bd27aec.setContent(html_c08c2b99a34043ca9e112c993c25ea6a);
+        
+
+        marker_ded33bfd2ef947e7966a8a5888de84e1.bindPopup(popup_f53fd5e3a8914b50ab7d29221bd27aec)
+        ;
+
+        
+    
+    
+            var marker_0b27daa0e8df4e34810deecbe3f25d26 = L.marker(
+                [37.06816, 14.25022],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_3a00281307304f1cb32261caecce84dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ac3d4daf9774d12bd167e394432a946 = $(`<div id="html_5ac3d4daf9774d12bd167e394432a946" style="width: 100.0%; height: 100.0%;">Battle of Gela</div>`)[0];
+            popup_3a00281307304f1cb32261caecce84dc.setContent(html_5ac3d4daf9774d12bd167e394432a946);
+        
+
+        marker_0b27daa0e8df4e34810deecbe3f25d26.bindPopup(popup_3a00281307304f1cb32261caecce84dc)
+        ;
+
+        
+    
+    
+            var marker_2ab596b0699f4830aef8209369c8a44a = L.marker(
+                [40.67348, 14.77125],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_56ddb161369e4645bb71e92464906157 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27ca7137e01c40d99387959171dce571 = $(`<div id="html_27ca7137e01c40d99387959171dce571" style="width: 100.0%; height: 100.0%;">Battle of Salerno</div>`)[0];
+            popup_56ddb161369e4645bb71e92464906157.setContent(html_27ca7137e01c40d99387959171dce571);
+        
+
+        marker_2ab596b0699f4830aef8209369c8a44a.bindPopup(popup_56ddb161369e4645bb71e92464906157)
+        ;
+
+        
+    
+    
+            var marker_e023aa344f5447cfb4cf9db5d9b094db = L.marker(
+                [41.48911, 13.811229999999998],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_244adf7d52ee4f6988c8e0a1142f2d16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a931eb9c69e4992a2915369799fe235 = $(`<div id="html_0a931eb9c69e4992a2915369799fe235" style="width: 100.0%; height: 100.0%;">Battle of Monte Cassino</div>`)[0];
+            popup_244adf7d52ee4f6988c8e0a1142f2d16.setContent(html_0a931eb9c69e4992a2915369799fe235);
+        
+
+        marker_e023aa344f5447cfb4cf9db5d9b094db.bindPopup(popup_244adf7d52ee4f6988c8e0a1142f2d16)
+        ;
+
+        
+    
+    
+            var marker_74829808973148b399ef5c315ea086e0 = L.marker(
+                [41.45897, 12.66302],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_434e7d0908064587b55892c79212dc96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b81848048fd410d9cf46267e1237640 = $(`<div id="html_5b81848048fd410d9cf46267e1237640" style="width: 100.0%; height: 100.0%;">Battle of Anzio</div>`)[0];
+            popup_434e7d0908064587b55892c79212dc96.setContent(html_5b81848048fd410d9cf46267e1237640);
+        
+
+        marker_74829808973148b399ef5c315ea086e0.bindPopup(popup_434e7d0908064587b55892c79212dc96)
+        ;
+
+        
+    
+    
+            var marker_8d9446a232d848d5a48f3557d2f671ae = L.marker(
+                [49.12016662, 0.110281515],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_f2ed09d5ee07446899e5b9ebe5af6c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a7152e0ea67467ab8ace6936cf9fa58 = $(`<div id="html_1a7152e0ea67467ab8ace6936cf9fa58" style="width: 100.0%; height: 100.0%;">Battle of Normandy</div>`)[0];
+            popup_f2ed09d5ee07446899e5b9ebe5af6c99.setContent(html_1a7152e0ea67467ab8ace6936cf9fa58);
+        
+
+        marker_8d9446a232d848d5a48f3557d2f671ae.bindPopup(popup_f2ed09d5ee07446899e5b9ebe5af6c99)
+        ;
+
+        
+    
+    
+            var marker_9f34ffc6a8bf4775b0d7f40aa62fc178 = L.marker(
+                [48.17736007, -2.8446475010000003],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_bab1f26b4dd24a6d801005c42338c365 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752b58a4a2f241f3a37858f491ed6562 = $(`<div id="html_752b58a4a2f241f3a37858f491ed6562" style="width: 100.0%; height: 100.0%;">Battle for Brest</div>`)[0];
+            popup_bab1f26b4dd24a6d801005c42338c365.setContent(html_752b58a4a2f241f3a37858f491ed6562);
+        
+
+        marker_9f34ffc6a8bf4775b0d7f40aa62fc178.bindPopup(popup_bab1f26b4dd24a6d801005c42338c365)
+        ;
+
+        
+    
+    
+            var marker_10da314347f94627974afd4b89202602 = L.marker(
+                [46.55941704, 2.550539953],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_8c92357fab3c4ec7a90a3d0567ee49b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58a246a026194625831016110e69df40 = $(`<div id="html_58a246a026194625831016110e69df40" style="width: 100.0%; height: 100.0%;">Operation Dragoon</div>`)[0];
+            popup_8c92357fab3c4ec7a90a3d0567ee49b5.setContent(html_58a246a026194625831016110e69df40);
+        
+
+        marker_10da314347f94627974afd4b89202602.bindPopup(popup_8c92357fab3c4ec7a90a3d0567ee49b5)
+        ;
+
+        
+    
+    
+            var marker_ef2ebd07d3d1442dba3861818077b72c = L.marker(
+                [48.68954, 6.18335],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_c39db0a9ec5045869085ad033a5a586a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_297cb92496d44fe492ea21bd72733e17 = $(`<div id="html_297cb92496d44fe492ea21bd72733e17" style="width: 100.0%; height: 100.0%;">Battle of Nancy</div>`)[0];
+            popup_c39db0a9ec5045869085ad033a5a586a.setContent(html_297cb92496d44fe492ea21bd72733e17);
+        
+
+        marker_ef2ebd07d3d1442dba3861818077b72c.bindPopup(popup_c39db0a9ec5045869085ad033a5a586a)
+        ;
+
+        
+    
+    
+            var marker_2766021d65414263b8d0e11af6c96504 = L.marker(
+                [52.24937529, 5.616126398],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_b03ae4f825d6451a8c6c26aeaa9921ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e79244408cab4f68ac60f35a3fd773c2 = $(`<div id="html_e79244408cab4f68ac60f35a3fd773c2" style="width: 100.0%; height: 100.0%;">Operation Market Garden</div>`)[0];
+            popup_b03ae4f825d6451a8c6c26aeaa9921ec.setContent(html_e79244408cab4f68ac60f35a3fd773c2);
+        
+
+        marker_2766021d65414263b8d0e11af6c96504.bindPopup(popup_b03ae4f825d6451a8c6c26aeaa9921ec)
+        ;
+
+        
+    
+    
+            var marker_eb4f4a4b64924e03bcce1655d9f98c47 = L.marker(
+                [50.81091, 4.31816],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_d2621ad37843443cbea4d61d343d2352 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fb93c09166d4ee1886ec471bf0e89e4 = $(`<div id="html_1fb93c09166d4ee1886ec471bf0e89e4" style="width: 100.0%; height: 100.0%;">Battle of Hürtgen Forest</div>`)[0];
+            popup_d2621ad37843443cbea4d61d343d2352.setContent(html_1fb93c09166d4ee1886ec471bf0e89e4);
+        
+
+        marker_eb4f4a4b64924e03bcce1655d9f98c47.bindPopup(popup_d2621ad37843443cbea4d61d343d2352)
+        ;
+
+        
+    
+    
+            var marker_94863c8fe31044fabbef6c5806c59bbb = L.marker(
+                [49.1147, 6.17145],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_6efd1227ef7b47e79bf2604f60174311 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d25ca87fb01649c9823a231f7f178fde = $(`<div id="html_d25ca87fb01649c9823a231f7f178fde" style="width: 100.0%; height: 100.0%;">Battle of Metz</div>`)[0];
+            popup_6efd1227ef7b47e79bf2604f60174311.setContent(html_d25ca87fb01649c9823a231f7f178fde);
+        
+
+        marker_94863c8fe31044fabbef6c5806c59bbb.bindPopup(popup_6efd1227ef7b47e79bf2604f60174311)
+        ;
+
+        
+    
+    
+            var marker_686b5681fc3143eb8f23e9dfd6b066e2 = L.marker(
+                [50.77823, 6.08864],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_82e79cf11c1842b295e4f8d460d35d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac91c763cb1a4f41a68edc69f455af2c = $(`<div id="html_ac91c763cb1a4f41a68edc69f455af2c" style="width: 100.0%; height: 100.0%;">Battle of Aachen</div>`)[0];
+            popup_82e79cf11c1842b295e4f8d460d35d56.setContent(html_ac91c763cb1a4f41a68edc69f455af2c);
+        
+
+        marker_686b5681fc3143eb8f23e9dfd6b066e2.bindPopup(popup_82e79cf11c1842b295e4f8d460d35d56)
+        ;
+
+        
+    
+    
+            var marker_cf323909cb644cc38b35babe4b849c7a = L.marker(
+                [50.37109811, 5.533824342999999],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_e47fb3e456e047679138a470e6aff8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f92defcd67548f39141de8db51d378a = $(`<div id="html_3f92defcd67548f39141de8db51d378a" style="width: 100.0%; height: 100.0%;">Battle of the Bulge</div>`)[0];
+            popup_e47fb3e456e047679138a470e6aff8c3.setContent(html_3f92defcd67548f39141de8db51d378a);
+        
+
+        marker_cf323909cb644cc38b35babe4b849c7a.bindPopup(popup_e47fb3e456e047679138a470e6aff8c3)
+        ;
+
+        
+    
+    
+            var marker_ac3af7cd63f447609e1f1c77af2a9794 = L.marker(
+                [49.0, 6.0],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_cc144d29ad354199a6287f10b11e78cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96f2aebdc4694044aff839bd9c3f8354 = $(`<div id="html_96f2aebdc4694044aff839bd9c3f8354" style="width: 100.0%; height: 100.0%;">Operation Nordwind</div>`)[0];
+            popup_cc144d29ad354199a6287f10b11e78cc.setContent(html_96f2aebdc4694044aff839bd9c3f8354);
+        
+
+        marker_ac3af7cd63f447609e1f1c77af2a9794.bindPopup(popup_cc144d29ad354199a6287f10b11e78cc)
+        ;
+
+        
+    
+    
+            var marker_240b5344456a4ca992eaf491d21a9f86 = L.marker(
+                [48.5, 7.5],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_f55b7c0c01cf4cf193f48fd96a9388ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3896d2a65d2a46e1b16a766989d0ad2f = $(`<div id="html_3896d2a65d2a46e1b16a766989d0ad2f" style="width: 100.0%; height: 100.0%;">Colmar Pocket</div>`)[0];
+            popup_f55b7c0c01cf4cf193f48fd96a9388ad.setContent(html_3896d2a65d2a46e1b16a766989d0ad2f);
+        
+
+        marker_240b5344456a4ca992eaf491d21a9f86.bindPopup(popup_f55b7c0c01cf4cf193f48fd96a9388ad)
+        ;
+
+        
+    
+    
+            var marker_558d6091b9384e3790eed8dc7f47e005 = L.marker(
+                [51.45081, 6.72283],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_6fac99ff12b14e7184ef552ced78a8fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fa85dcef2dc4b87beb3df6d0bdd837c = $(`<div id="html_2fa85dcef2dc4b87beb3df6d0bdd837c" style="width: 100.0%; height: 100.0%;">Ruhr Pocket</div>`)[0];
+            popup_6fac99ff12b14e7184ef552ced78a8fd.setContent(html_2fa85dcef2dc4b87beb3df6d0bdd837c);
+        
+
+        marker_558d6091b9384e3790eed8dc7f47e005.bindPopup(popup_6fac99ff12b14e7184ef552ced78a8fd)
+        ;
+
+        
+    
+    
+            var marker_0e22ed3efd8a4b6f964eee8b8e906726 = L.marker(
+                [51.65573, 6.61684],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_a0a18ad8ab1844dbac8c62932bb74060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32d89e763c164beaaa7552b880db2176 = $(`<div id="html_32d89e763c164beaaa7552b880db2176" style="width: 100.0%; height: 100.0%;">Operation Varsity</div>`)[0];
+            popup_a0a18ad8ab1844dbac8c62932bb74060.setContent(html_32d89e763c164beaaa7552b880db2176);
+        
+
+        marker_0e22ed3efd8a4b6f964eee8b8e906726.bindPopup(popup_a0a18ad8ab1844dbac8c62932bb74060)
+        ;
+
+        
+    
+    
+            var marker_15a71c8e6cdf46e98d4b907f387f57c2 = L.marker(
+                [40.760290000000005, -73.80136999999999],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_5e68fb623e044dfc998bc7d7b49c2846 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a553d1afb02e459bb72c4a73404479e8 = $(`<div id="html_a553d1afb02e459bb72c4a73404479e8" style="width: 100.0%; height: 100.0%;">Spring 1945 offensive in Italy</div>`)[0];
+            popup_5e68fb623e044dfc998bc7d7b49c2846.setContent(html_a553d1afb02e459bb72c4a73404479e8);
+        
+
+        marker_15a71c8e6cdf46e98d4b907f387f57c2.bindPopup(popup_5e68fb623e044dfc998bc7d7b49c2846)
+        ;
+
+        
+    
+    
+            var marker_1cfaa6d7564e43e2bc191453978f3a96 = L.marker(
+                [21.35029, -157.94484],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_a95701b294624563be653013be0e7153 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e69dd197ee004c399deb021f86ec6ac7 = $(`<div id="html_e69dd197ee004c399deb021f86ec6ac7" style="width: 100.0%; height: 100.0%;">Attack on Pearl Harbor</div>`)[0];
+            popup_a95701b294624563be653013be0e7153.setContent(html_e69dd197ee004c399deb021f86ec6ac7);
+        
+
+        marker_1cfaa6d7564e43e2bc191453978f3a96.bindPopup(popup_a95701b294624563be653013be0e7153)
+        ;
+
+        
+    
+    
+            var marker_25e33557acd048ab838628b1016f5d87 = L.marker(
+                [19.31, 166.6],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_f691fcd04ac7459da4611ad61ca966d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52f10b00b26543f98ac0e4a0a0df3dd3 = $(`<div id="html_52f10b00b26543f98ac0e4a0a0df3dd3" style="width: 100.0%; height: 100.0%;">Battle of Wake Island</div>`)[0];
+            popup_f691fcd04ac7459da4611ad61ca966d1.setContent(html_52f10b00b26543f98ac0e4a0a0df3dd3);
+        
+
+        marker_25e33557acd048ab838628b1016f5d87.bindPopup(popup_f691fcd04ac7459da4611ad61ca966d1)
+        ;
+
+        
+    
+    
+            var marker_b4de4ba8ac6f4dadbef5e484b9f8fc58 = L.marker(
+                [14.666670000000002, 120.41667],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_b7be2783d54e4096b259981300a7c28c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_523bf734a921418d91e0a691b07faf95 = $(`<div id="html_523bf734a921418d91e0a691b07faf95" style="width: 100.0%; height: 100.0%;">Battle of Bataan</div>`)[0];
+            popup_b7be2783d54e4096b259981300a7c28c.setContent(html_523bf734a921418d91e0a691b07faf95);
+        
+
+        marker_b4de4ba8ac6f4dadbef5e484b9f8fc58.bindPopup(popup_b7be2783d54e4096b259981300a7c28c)
+        ;
+
+        
+    
+    
+            var marker_c3d8e9b31da24c66a3cfede4d8fdcf89 = L.marker(
+                [35.68945633, 139.69171609999998],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_5515548ff32f4789b811c54705160396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc64d652ba04bc3bf491cab00960094 = $(`<div id="html_abc64d652ba04bc3bf491cab00960094" style="width: 100.0%; height: 100.0%;">Doolittle Raid</div>`)[0];
+            popup_5515548ff32f4789b811c54705160396.setContent(html_abc64d652ba04bc3bf491cab00960094);
+        
+
+        marker_c3d8e9b31da24c66a3cfede4d8fdcf89.bindPopup(popup_5515548ff32f4789b811c54705160396)
+        ;
+
+        
+    
+    
+            var marker_6e99c3485607467c957d5e89176e9e10 = L.marker(
+                [-33.195640000000004, 136.37162],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_18c0ee7816004e97bae4cd773804fb79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d41dd520f328453d9afd94d1330ef9e3 = $(`<div id="html_d41dd520f328453d9afd94d1330ef9e3" style="width: 100.0%; height: 100.0%;">Battle of the Coral Sea</div>`)[0];
+            popup_18c0ee7816004e97bae4cd773804fb79.setContent(html_d41dd520f328453d9afd94d1330ef9e3);
+        
+
+        marker_6e99c3485607467c957d5e89176e9e10.bindPopup(popup_18c0ee7816004e97bae4cd773804fb79)
+        ;
+
+        
+    
+    
+            var marker_43a40a2384ff4a03a0660266d5f95aa2 = L.marker(
+                [-10.55262, 150.31493999999998],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_093ee3a2a1914c11aa6b16e0caf23e59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61a124d8f7a04b16901f763cde82a10a = $(`<div id="html_61a124d8f7a04b16901f763cde82a10a" style="width: 100.0%; height: 100.0%;">Battle of Milne Bay</div>`)[0];
+            popup_093ee3a2a1914c11aa6b16e0caf23e59.setContent(html_61a124d8f7a04b16901f763cde82a10a);
+        
+
+        marker_43a40a2384ff4a03a0660266d5f95aa2.bindPopup(popup_093ee3a2a1914c11aa6b16e0caf23e59)
+        ;
+
+        
+    
+    
+            var marker_204012cbcf3b44a48213f982a47aadb6 = L.marker(
+                [-3.1374400000000002, 142.3475],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_8108af6f19904dac9979c93462d9903b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a84fd3c3f4214649a53fb20b4f256544 = $(`<div id="html_a84fd3c3f4214649a53fb20b4f256544" style="width: 100.0%; height: 100.0%;">Battle of Driniumor River</div>`)[0];
+            popup_8108af6f19904dac9979c93462d9903b.setContent(html_a84fd3c3f4214649a53fb20b4f256544);
+        
+
+        marker_204012cbcf3b44a48213f982a47aadb6.bindPopup(popup_8108af6f19904dac9979c93462d9903b)
+        ;
+
+        
+    
+    
+            var marker_b18bace3fcc74d5a94eff368373a0a81 = L.marker(
+                [28.228, -177.389],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_fb5d3b2025074876987938e15e6c2c86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa589c904f4e403d99d91a5b57c3c792 = $(`<div id="html_fa589c904f4e403d99d91a5b57c3c792" style="width: 100.0%; height: 100.0%;">Battle of Midway</div>`)[0];
+            popup_fb5d3b2025074876987938e15e6c2c86.setContent(html_fa589c904f4e403d99d91a5b57c3c792);
+        
+
+        marker_b18bace3fcc74d5a94eff368373a0a81.bindPopup(popup_fb5d3b2025074876987938e15e6c2c86)
+        ;
+
+        
+    
+    
+            var marker_1128dfb2a8ac45e888a340adbac4ee9b = L.marker(
+                [-9.75, 160.0],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_49d6ee5de60c4e5f85c3aca51d0abebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4891622f1049428185bba7b86ae3e07c = $(`<div id="html_4891622f1049428185bba7b86ae3e07c" style="width: 100.0%; height: 100.0%;">Battle of Guadalcanal</div>`)[0];
+            popup_49d6ee5de60c4e5f85c3aca51d0abebe.setContent(html_4891622f1049428185bba7b86ae3e07c);
+        
+
+        marker_1128dfb2a8ac45e888a340adbac4ee9b.bindPopup(popup_49d6ee5de60c4e5f85c3aca51d0abebe)
+        ;
+
+        
+    
+    
+            var marker_7ec2378fcf6143cb93b118ded1b600d5 = L.marker(
+                [-11.0, 166.25],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_e9673d2bcf854703ac16faba729d56e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d5099f7ab1046fcb3063dd142c02683 = $(`<div id="html_5d5099f7ab1046fcb3063dd142c02683" style="width: 100.0%; height: 100.0%;">Battle of the Santa Cruz Islands</div>`)[0];
+            popup_e9673d2bcf854703ac16faba729d56e1.setContent(html_5d5099f7ab1046fcb3063dd142c02683);
+        
+
+        marker_7ec2378fcf6143cb93b118ded1b600d5.bindPopup(popup_e9673d2bcf854703ac16faba729d56e1)
+        ;
+
+        
+    
+    
+            var marker_4dfe96fa1b764b5c889163f5c066e144 = L.marker(
+                [1.419, 172.985],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_c0d85054923846c3b3e550b0088e8849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfc40780a32b4ddea15faa1835a3ed59 = $(`<div id="html_cfc40780a32b4ddea15faa1835a3ed59" style="width: 100.0%; height: 100.0%;">Battle of Tarawa</div>`)[0];
+            popup_c0d85054923846c3b3e550b0088e8849.setContent(html_cfc40780a32b4ddea15faa1835a3ed59);
+        
+
+        marker_4dfe96fa1b764b5c889163f5c066e144.bindPopup(popup_c0d85054923846c3b3e550b0088e8849)
+        ;
+
+        
+    
+    
+            var marker_3fce6437fd5440e2b9698bb68660281b = L.marker(
+                [9.182, 167.308],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_56f499feca7647ff99a04aa409f2fa40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7e5fce2f4684591adfd80913c241303 = $(`<div id="html_b7e5fce2f4684591adfd80913c241303" style="width: 100.0%; height: 100.0%;">Battle of Kwajalein</div>`)[0];
+            popup_56f499feca7647ff99a04aa409f2fa40.setContent(html_b7e5fce2f4684591adfd80913c241303);
+        
+
+        marker_3fce6437fd5440e2b9698bb68660281b.bindPopup(popup_56f499feca7647ff99a04aa409f2fa40)
+        ;
+
+        
+    
+    
+            var marker_723b9852f11a4c93bfb866401bc5a09b = L.marker(
+                [11.64183, 162.14458],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_40055715ca4b477e9033fde214ac8009 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ac91431a6054f7b8573534e8c382059 = $(`<div id="html_1ac91431a6054f7b8573534e8c382059" style="width: 100.0%; height: 100.0%;">Battle of Eniwetok</div>`)[0];
+            popup_40055715ca4b477e9033fde214ac8009.setContent(html_1ac91431a6054f7b8573534e8c382059);
+        
+
+        marker_723b9852f11a4c93bfb866401bc5a09b.bindPopup(popup_40055715ca4b477e9033fde214ac8009)
+        ;
+
+        
+    
+    
+            var marker_764e89578d04491eb198caeb4997f114 = L.marker(
+                [15.20756, 145.72108],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_5a36c20028ec4f5d9d5c5ad91eae68d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_169a0abd321341a9a6eda8996c081b42 = $(`<div id="html_169a0abd321341a9a6eda8996c081b42" style="width: 100.0%; height: 100.0%;">Battle of Saipan</div>`)[0];
+            popup_5a36c20028ec4f5d9d5c5ad91eae68d7.setContent(html_169a0abd321341a9a6eda8996c081b42);
+        
+
+        marker_764e89578d04491eb198caeb4997f114.bindPopup(popup_5a36c20028ec4f5d9d5c5ad91eae68d7)
+        ;
+
+        
+    
+    
+            var marker_5a95e7021c4c4616bebc3f1522caefd3 = L.marker(
+                [13.481, 144.736],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_08063a65f95a4f2bbd77062349b52ab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06434933e0ec4045be00db6b83538798 = $(`<div id="html_06434933e0ec4045be00db6b83538798" style="width: 100.0%; height: 100.0%;">Battle of Guam (1944)</div>`)[0];
+            popup_08063a65f95a4f2bbd77062349b52ab1.setContent(html_06434933e0ec4045be00db6b83538798);
+        
+
+        marker_5a95e7021c4c4616bebc3f1522caefd3.bindPopup(popup_08063a65f95a4f2bbd77062349b52ab1)
+        ;
+
+        
+    
+    
+            var marker_46e5c5a2afe2479db9a7ab9ae6c6ae60 = L.marker(
+                [15.00254436, 145.6267949],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_962cb56877ad409c97cd2c74635c2b85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d326ed217d0488b9984517f34f1f2a0 = $(`<div id="html_3d326ed217d0488b9984517f34f1f2a0" style="width: 100.0%; height: 100.0%;">Battle of Tinian</div>`)[0];
+            popup_962cb56877ad409c97cd2c74635c2b85.setContent(html_3d326ed217d0488b9984517f34f1f2a0);
+        
+
+        marker_46e5c5a2afe2479db9a7ab9ae6c6ae60.bindPopup(popup_962cb56877ad409c97cd2c74635c2b85)
+        ;
+
+        
+    
+    
+            var marker_c01e2854689d46a6a84f543c890f9751 = L.marker(
+                [6.992999999999999, 134.232],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_f457bdee340044b8b3d5b77411620bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50e584c790c8479db04468e313f8d770 = $(`<div id="html_50e584c790c8479db04468e313f8d770" style="width: 100.0%; height: 100.0%;">Battle of Peleliu</div>`)[0];
+            popup_f457bdee340044b8b3d5b77411620bb5.setContent(html_50e584c790c8479db04468e313f8d770);
+        
+
+        marker_c01e2854689d46a6a84f543c890f9751.bindPopup(popup_f457bdee340044b8b3d5b77411620bb5)
+        ;
+
+        
+    
+    
+            var marker_d95ca91f3c484e35b64e49e787feab55 = L.marker(
+                [6.89, 134.126],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_6add06bcb1e7495e900167976a490392 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ef949008cb54789a130cc3ffc20babc = $(`<div id="html_9ef949008cb54789a130cc3ffc20babc" style="width: 100.0%; height: 100.0%;">Battle of Angaur</div>`)[0];
+            popup_6add06bcb1e7495e900167976a490392.setContent(html_9ef949008cb54789a130cc3ffc20babc);
+        
+
+        marker_d95ca91f3c484e35b64e49e787feab55.bindPopup(popup_6add06bcb1e7495e900167976a490392)
+        ;
+
+        
+    
+    
+            var marker_20fb388cc32046d69925aae5daa4f858 = L.marker(
+                [10.83333, 125.41667],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_b4b018f84daf4c02b441207143ff8af8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deb6696e9e174af39c28aaeceb6d2554 = $(`<div id="html_deb6696e9e174af39c28aaeceb6d2554" style="width: 100.0%; height: 100.0%;">Battle of Leyte Gulf</div>`)[0];
+            popup_b4b018f84daf4c02b441207143ff8af8.setContent(html_deb6696e9e174af39c28aaeceb6d2554);
+        
+
+        marker_20fb388cc32046d69925aae5daa4f858.bindPopup(popup_b4b018f84daf4c02b441207143ff8af8)
+        ;
+
+        
+    
+    
+            var marker_d99ca3b506d34841aaac362b28b18609 = L.marker(
+                [6.51905, 126.09205],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_ae09823fa93246d7ab898a354f15d0bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3447211702d54e52a6fab6bb8041ce51 = $(`<div id="html_3447211702d54e52a6fab6bb8041ce51" style="width: 100.0%; height: 100.0%;">Battle of Luzon</div>`)[0];
+            popup_ae09823fa93246d7ab898a354f15d0bf.setContent(html_3447211702d54e52a6fab6bb8041ce51);
+        
+
+        marker_d99ca3b506d34841aaac362b28b18609.bindPopup(popup_ae09823fa93246d7ab898a354f15d0bf)
+        ;
+
+        
+    
+    
+            var marker_6a0437389267478186c7c69224439b1c = L.marker(
+                [14.58864, 120.98454],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_856c35e0c8ae4c02b96288ea1e5c3d9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5764f9d48128439ab5beca881287e560 = $(`<div id="html_5764f9d48128439ab5beca881287e560" style="width: 100.0%; height: 100.0%;">Battle of Manila</div>`)[0];
+            popup_856c35e0c8ae4c02b96288ea1e5c3d9f.setContent(html_5764f9d48128439ab5beca881287e560);
+        
+
+        marker_6a0437389267478186c7c69224439b1c.bindPopup(popup_856c35e0c8ae4c02b96288ea1e5c3d9f)
+        ;
+
+        
+    
+    
+            var marker_2fd7d689d6f3443bb07895450957b83c = L.marker(
+                [24.78333, 141.33333000000002],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_4d667a79bf7e4ada8aa6707325037a89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_217befc8445e49b1842b3f4967678a02 = $(`<div id="html_217befc8445e49b1842b3f4967678a02" style="width: 100.0%; height: 100.0%;">Battle of Iwo Jima</div>`)[0];
+            popup_4d667a79bf7e4ada8aa6707325037a89.setContent(html_217befc8445e49b1842b3f4967678a02);
+        
+
+        marker_2fd7d689d6f3443bb07895450957b83c.bindPopup(popup_4d667a79bf7e4ada8aa6707325037a89)
+        ;
+
+        
+    
+    
+            var marker_6838f96427914ef5af316ee701dd5a5c = L.marker(
+                [26.21228115, 127.68094690000001],
+                {}
+            ).addTo(feature_group_6665da9a82ae4570a83c056a7be6f1bb);
+        
+    
+        var popup_1fa9a75d8c0f4b7b976e0956e9ec57e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da56d76cb8e342ff9cbd000c462766db = $(`<div id="html_da56d76cb8e342ff9cbd000c462766db" style="width: 100.0%; height: 100.0%;">Battle of Okinawa</div>`)[0];
+            popup_1fa9a75d8c0f4b7b976e0956e9ec57e0.setContent(html_da56d76cb8e342ff9cbd000c462766db);
+        
+
+        marker_6838f96427914ef5af316ee701dd5a5c.bindPopup(popup_1fa9a75d8c0f4b7b976e0956e9ec57e0)
+        ;
+
+        
+    
+    
+            var layer_control_4af4f5e33ad248498ea748932d9bb748 = {
+                base_layers : {
+                    "stamenterrain" : tile_layer_f44b7ab65c674b3f95642fdbc999d584,
+                },
+                overlays :  {
+                    "Opposing Force" : feature_group_6665da9a82ae4570a83c056a7be6f1bb,
+                },
+            };
+            L.control.layers(
+                layer_control_4af4f5e33ad248498ea748932d9bb748.base_layers,
+                layer_control_4af4f5e33ad248498ea748932d9bb748.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_f3fff6f71b64464186e513963f48e2d9);
+        
+</script>

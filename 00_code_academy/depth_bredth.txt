@@ -1,0 +1,8 @@
+Depth first makes a stack and keeps track of visited values. Then it pops values off of the stack, once the stack is empty 
+then the algorithm is complete.
+
+Preorder, in which each vertex is added to the “visited” list and added to the output list BEFORE getting added to the stack
+
+Postorder, in which each vertex is added to the “visited” list and added to the output list AFTER it is popped off the stack
+
+Reverse Post-Order (also known as Topological Sort), which returns an output list that is exactly the reverse of the post-order list

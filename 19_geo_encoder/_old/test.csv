@@ -1,0 +1,101 @@
+,address,city,state,postal_code,division,type,facility_id
+0,"150 S Huntington Ave, Jamaica Plain, Massachusetts, 02130",Jamaica Plain,MA,2130,Veterans Health Administration,VA Health Care System,523
+1,"950 Campbell Ave, West Haven, Connecticut, 06516",West Haven,CT,6516,Veterans Health Administration,VA Health Care System,689
+2,"200 Springs Rd, Bedford, Massachusetts, 01730",Bedford,MA,1730,Veterans Health Administration,VA Medical Center,518
+3,"718 Smyth Rd, Manchester, New Hampshire, 03104",Manchester,NH,3104,Veterans Health Administration,VA Medical Center,608
+4,"830 Chalkstone Ave, Providence, Rhode Island, 02908",Providence,RI,02908-4799,Veterans Health Administration,VA Medical Center,650
+5,"940 Belmont St, Brockton, Massachusetts, 02301",Brockton,MA,2301,Veterans Health Administration,VA Medical Center,523A5
+6,"150 S Huntington Ave, Jamaica Plain, Massachusetts, 02130",Jamaica Plain,MA,2130,Veterans Health Administration,VA Medical Center,523
+7,"1400 Vfw Pkwy, West Roxbury, Massachusetts, 02132",West Roxbury,MA,2132,Veterans Health Administration,VA Medical Center,523A4
+8,"421 N Main St, Leeds, Massachusetts, 01053",Leeds,MA,01053-9764,Veterans Health Administration,VA Medical Center,631
+9,"555 Willard Ave, Newington, Connecticut, 06111",Newington,CT,6111,Veterans Health Administration,VA Medical Center,689A4
+10,"950 Campbell Ave, West Haven, Connecticut, 06516",West Haven,CT,6516,Veterans Health Administration,VA Medical Center,689
+11,"1 Va Ctr, Augusta, Maine, 04330",Augusta,ME,4330,Veterans Health Administration,VA Medical Center,402
+12,"163 Veterans Dr, White River Junction, Vermont, 05001",White River Junction,VT,5009,Veterans Health Administration,VA Medical Center,405
+13,"251 Causeway St, Boston, Massachusetts, 02114",Boston,MA,2114,Veterans Health Administration,Outpatient Clinic,523BZ
+14,"3 Mountain View Dr, Fort Kent, Maine, 04743",Fort Kent,ME,4743,Veterans Health Administration,Outpatient Clinic,402F
+15,Houlton Regional Hospital,Houlton,ME,4730,Veterans Health Administration,Outpatient Clinic,4730
+16,"241 Main St, Bingham, Maine, 04920",Bingham,ME,4920,Veterans Health Administration,Outpatient Clinic,402MMU
+17,"163 Van Buren Rd, Caribou, Maine, 04736",Caribou,ME,4736,Veterans Health Administration,Community Based Outpatient Clinic,402GD
+18,"35 State Hospital Dr, Bangor, Maine, 04401",Bangor,ME,4401,Veterans Health Administration,Community Based Outpatient Clinic,402HB
+19,"186 North St, Bennington, Vermont, 05201",Bennington,VT,5201,Veterans Health Administration,Community Based Outpatient Clinic,405GA
+20,"71 GSP Dr, Brattleboro, Vermont, 05301",Brattleboro,VT,5301,Veterans Health Administration,Community Based Outpatient Clinic,405GC
+21,"128 Lakeside Ave, Ste 260, Burlington, Vermont, 05401",Burlington,VT,5401,Veterans Health Administration,Community Based Outpatient Clinic,405HA
+22,"50 Union St, Calais, Maine, 04619",Calais,ME,4619,Veterans Health Administration,Community Based Outpatient Clinic,402GB
+23,"71 Hobbs St, Conway, New Hampshire, 03818",Conway,NH,3818,Veterans Health Administration,Community Based Outpatient Clinic,608GD
+24,"7 Germantown Rd, Danbury, Connecticut, 06810",Danbury,CT,6810,Veterans Health Administration,Community Based Outpatient Clinic,689GE
+25,"881 Main St, Fitchburg, Massachusetts, 01420",Fitchburg,MA,1420,Veterans Health Administration,Community Based Outpatient Clinic,518GG
+26,"61 Lincoln St, Ste 112, Framingham, Massachusetts, 01702",Framingham,MA,1702,Veterans Health Administration,Community Based Outpatient Clinic,523GA
+27,"199 Main St, Gloucester, Massachusetts, 01930",Gloucester,MA,1930,Veterans Health Administration,Community Based Outpatient Clinic,518GE
+28,"143 Munson St, Greenfield, Massachusetts, 01301",Greenfield,MA,1301,Veterans Health Administration,Community Based Outpatient Clinic,631GD
+29,"108 Merrimack St, Haverhill, Massachusetts, 01830",Haverhill,MA,1830,Veterans Health Administration,Community Based Outpatient Clinic,518GB
+30,"233 Stevens St, Hyannis, Massachusetts, 02601",Hyannis,MA,2601,Veterans Health Administration,Community Based Outpatient Clinic,650GB
+31,"Shaws Cv, New London, Connecticut, 06320",New London,CT,6320,Veterans Health Administration,Community Based Outpatient Clinic,689HC
+32,"640 Marlboro St, Keene, New Hampshire, 03431",Keene,NH,3431,Veterans Health Administration,Community Based Outpatient Clinic,405K
+33,"15 Challenger Dr, Lewiston, Maine, 04240",Lewiston,ME,4240,Veterans Health Administration,Community Based Outpatient Clinic,402-al
+34,"99 River Rd, Lincoln, Maine, 04457",Lincoln,ME,4457,Veterans Health Administration,Community Based Outpatient Clinic,402
+35,"264 Cottage St, Littleton, New Hampshire, 03561",Littleton,NH,3561,Veterans Health Administration,Community Based Outpatient Clinic,405HC
+36,"130 Marshall Rd, Lowell, Massachusetts, 01852",Lowell,MA,1852,Veterans Health Administration,Community Based Outpatient Clinic,523BY
+37,"225 Boston St, Ste 107, Lynn, Massachusetts, 01904",Lynn,MA,1904,Veterans Health Administration,Community Based Outpatient Clinic,518GA
+38,"Corporate Pl, Middletown, Rhode Island, 02842",Middletown,RI,2842,Veterans Health Administration,Community Based Outpatient Clinic,650GD
+39,"175 Elm St, New Bedford, Massachusetts, 02740",New Bedford,MA,2740,Veterans Health Administration,Community Based Outpatient Clinic,650GA
+40,"1734 Crawford Farm Rd, Newport, Vermont, 05855",Newport,VT,5855,Veterans Health Administration,Community Based Outpatient Clinic,405_Newport
+41,"73 Eagle St, Pittsfield, Massachusetts, 01201",Pittsfield,MA,1201,Veterans Health Administration,Community Based Outpatient Clinic,631GC
+42,"116 Long Pond Rd, Plymouth, Massachusetts, 02360",Plymouth,MA,2360,Veterans Health Administration,Community Based Outpatient Clinic,523GD
+43,"144 Fore St, Portland, Maine, 04101",Portland,ME,4101,Veterans Health Administration,Community Based Outpatient Clinic,402-p
+44,"302 Newmarket St, Portsmouth, New Hampshire, 03801",Portsmouth,NH,3803,Veterans Health Administration,Community Based Outpatient Clinic,608GA
+45,"110 W Squantum St, Quincy, Massachusetts, 02171",Quincy,MA,2169,Veterans Health Administration,Community Based Outpatient Clinic,523GC
+46,"431 Franklin St, Rumford, Maine, 04276",Rumford,ME,4726,Veterans Health Administration,Community Based Outpatient Clinic,402GC
+47,"232 West St, Rutland, Vermont, 05701",Rutland,VT,5701,Veterans Health Administration,Community Based Outpatient Clinic,405HF
+48,"655 Main St, Saco, Maine, 04072",Saco,ME,4072,Veterans Health Administration,Community Based Outpatient Clinic,402GA
+49,"200 Route 108, Somersworth, New Hampshire, 03878",Somersworth,NH,3878,Veterans Health Administration,Community Based Outpatient Clinic,608GC
+50,"25 Bond St, Springfield, Massachusetts, 01104",Springfield,MA,1104,Veterans Health Administration,Community Based Outpatient Clinic,631BY
+51,"1275 Summer St, Ste 102, Stamford, Connecticut, 06905",Stamford,CT,6905,Veterans Health Administration,Community Based Outpatient Clinic,689gb
+52,"630 W Main St, Ste 400, Tilton, New Hampshire, 03276",Tilton,NH,3276,Veterans Health Administration,Community Based Outpatient Clinic,608HA
+53,"95 Scovill St, Waterbury, Connecticut, 06706",Waterbury,CT,6706,Veterans Health Administration,Community Based Outpatient Clinic,689GA
+54,"1320 Main St, Willimantic, Connecticut, 06226",Willimantic,CT,6226,Veterans Health Administration,Community Based Outpatient Clinic,689GC
+55,"115 Spencer St, Winsted, Connecticut, 06098",Winsted,CT,6908,Veterans Health Administration,Community Based Outpatient Clinic,689GD
+56,"605 Lincoln St, Worcester, Massachusetts, 01605",Worcester,MA,1605,Veterans Health Administration,Community Based Outpatient Clinic,631GE
+57,"368 Harlow St, Bangor, Maine, 04401",Bangor,ME,4401,Veterans Health Administration,Vet Center,121
+58,"515 Main St, Gorham, New Hampshire, 03581",Gorham,NH,3581,Veterans Health Administration,Vet Center,134
+59,"7 Drydock Ave, Boston, Massachusetts, 02210",Boston,MA,02210-2303,Veterans Health Administration,Vet Center,0101V
+60,"1041L Pearl St, Brockton, Massachusetts, 02301",Brockton,MA,2301,Veterans Health Administration,Vet Center,104
+61,"474 W Main St, Hyannis, Massachusetts, 02601",Hyannis,MA,2601,Veterans Health Administration,Vet Center,136
+62,"456 York St, Caribou, Maine, 04736",Caribou,ME,4736,Veterans Health Administration,Vet Center,119
+63,"457 N Main St, Danbury, Connecticut, 06811",Danbury,CT,6811,Veterans Health Administration,Vet Center,140
+64,"25 Elm St, Rocky Hill, Connecticut, 06067",Rocky Hill,CT,6067,Veterans Health Administration,Vet Center,117
+65,"640 Marlboro Rd, Keene, New Hampshire, 03431",Keene,NH,3431,Veterans Health Administration,Vet Center,1221
+66,"35 Westminster St, Lewiston, Maine, 04240",Lewiston,ME,4240,Veterans Health Administration,Vet Center,129
+67,"10 George St, Lowell, Massachusetts, 01852",Lowell,MA,1852,Veterans Health Administration,Vet Center,125
+68,"1461 Hooksett Rd, Hooksett, New Hampshire, 03106",Hooksett,NH,3106,Veterans Health Administration,Vet Center,108
+69,"73 Huttleston Ave, Fairhaven, Massachusetts, 02719",Fairhaven,MA,2719,Veterans Health Administration,Vet Center,128
+70,"291 S Lambert Rd, Orange, Connecticut, 06477",Orange,CT,6477,Veterans Health Administration,Vet Center,116
+71,"2 Cliff St, Norwich, Connecticut, 06360",Norwich,CT,6360,Veterans Health Administration,Vet Center,127
+72,"475 Stevens Ave, Portland, Maine, 04103",Portland,ME,4103,Veterans Health Administration,Vet Center,115
+73,"2038 Warwick Ave, Warwick, Rhode Island, 02889",Warwick,RI,2889,Veterans Health Administration,Vet Center,113
+74,"15 Dartmouth Dr, Auburn, New Hampshire, 03032",Auburn,NH,3032,Veterans Health Administration,Vet Center,0100V
+75,"628 Main St, Springvale, Maine, 04083",Springvale,ME,4083,Veterans Health Administration,Vet Center,130
+76,"19 Gregory Dr, South Burlington, Vermont, 05403",South Burlington,VT,5403,Veterans Health Administration,Vet Center,118
+77,"95 Ashley Ave, Ste A, West Springfield, Massachusetts, 01089",West Springfield,MA,1089,Veterans Health Administration,Vet Center,103
+78,"118 Prospect St, White River Junction, Vermont, 05001",White River Junction,VT,5001,Veterans Health Administration,Vet Center,122
+79,"255 Park Ave, Ste 900, Worcester, Massachusetts, 01609",Worcester,MA,1609,Veterans Health Administration,Vet Center,126
+80,"130 W Kingsbridge Rd, Bronx, New York, 10468",Bronx,NY,10468,Veterans Health Administration,VISN,10N3
+81,"2094 Albany Post Rd, Montrose, New York, 10548",Montrose,NY,10548,Veterans Health Administration,VA Health Care System,620
+82,"385 Tremont Ave, East Orange, New Jersey, 07018",East Orange,NJ,7018,Veterans Health Administration,VA Health Care System,561
+83,"423 E 23rd St, New York, 10010",New York,NY,10010,Veterans Health Administration,VA Health Care System,630
+84,"3495 Bailey Ave, Buffalo, New York, 14215",Buffalo,NY,14215,Veterans Health Administration,VA Health Care System,528
+85,"113 Holland Ave, Albany, New York, 12208",Albany,NY,12208,Veterans Health Administration,VA Medical Center,528A8
+86,"76 Veterans Ave, Bath, New York, 14810",Bath,NY,14810,Veterans Health Administration,VA Medical Center,528A6
+87,"800 Poly Pl, Brooklyn, New York, 11209",Brooklyn,NY,11209,Veterans Health Administration,VA Medical Center,630A4
+88,"400 Fort Hill Ave, Canandaigua, New York, 14424",Canandaigua,NY,14424,Veterans Health Administration,VA Medical Center,528A5
+89,"41 Castle Point Rd, Wappingers Falls, New York, 12590",Wappingers Falls,NY,12590,Veterans Health Administration,VA Medical Center,620A4
+90,"385 Tremont Ave, East Orange, New Jersey, 07018",East Orange,NJ,7018,Veterans Health Administration,VA Medical Center,561
+91,"2094 Albany Post Rd, Montrose, New York, 10548",Montrose,NY,10548,Veterans Health Administration,VA Medical Center,620
+92,"130 W Kingsbridge Rd, Bronx, New York, 10468",Bronx,NY,10468,Veterans Health Administration,VA Medical Center,526
+93,"151 Knollcroft Rd, Lyons, New Jersey, 07939",Lyons,NJ,7939,Veterans Health Administration,VA Medical Center,561A4
+94,"423 E 23rd St, New York, 10010",New York,NY,10010,Veterans Health Administration,VA Medical Center,630
+95,"79 Middleville Rd, Northport, New York, 11768",Northport,NY,11768,Veterans Health Administration,VA Medical Center,632
+96,"800 Irving Ave, Syracuse, New York, 13210",Syracuse,NY,13210,Veterans Health Administration,VA Medical Center,528A7
+97,"222 Richmond Ave, Batavia, New York, 14020",Batavia,NY,14020,Veterans Health Administration,VA Medical Center,528A4
+98,"3495 Bailey Ave, Buffalo, New York, 14215",Buffalo,NY,14215,Veterans Health Administration,VA Medical Center,528
+99,"Linden Blvd & 179th St, Jamaica, New York, 11434",Jamaica,NY,11425,Veterans Health Administration,Domiciliary,630A5
